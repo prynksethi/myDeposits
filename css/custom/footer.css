@@ -1,0 +1,32 @@
+.primary-footer {
+	background: #e7e7e7;
+	margin: 0;
+	padding: 25px;
+}
+.primary-footer ul li a {
+	color: #39B7CD;
+	font-size: 16px;
+}
+.live-chat {
+	padding-top: 20px;
+}
+.live-chat a, .live-chat a:hover{
+  padding: 20px 55px;
+  border-radius: 5px;
+  background-color: #39B7CD;
+  color: #fff;
+  text-decoration: none;
+}
+.secondary-footer {
+	background-color: #000;
+	color: #fff;
+	margin: 0;
+}
+.secondary-footer p {
+	margin-top: 10px;
+}
+.footer-legal-links ul li a ,.footer-legal-links ul li a:active, .footer-legal-links ul li a:hover {
+	color: #fff;
+	background: none;
+	float: right;
+}
