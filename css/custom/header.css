@@ -1,0 +1,14 @@
+.secondary-header {
+	height: 50px;
+}
+.header-banner img{
+	width: 100%;
+}
+.nav-pills>li>a, .nav-pills>li>a:focus {
+	color: #000; 
+	background-color: #fff; 
+ }
+ .nav-pills>li.active>a, .nav-pills>li.active>a:focus {
+	color: #777;
+	background: #e7e7e7;
+ }
