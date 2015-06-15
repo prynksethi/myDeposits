@@ -42,13 +42,38 @@
 	<ul class="nav nav-pills secondary-header col-md-offset-6">
 	  <li role="presentation" class="active"><a href="#">Home</a></li>
 	  <li role="presentation"><a href="#">My Deposits</a></li>
-	  <li role="presentation"><a href="#">Notifications</a></li>
+	  <li role="presentation"><a href="#">Notifications<span class="badge">42</span></a></li>
 	  <li role="presentation"><a href="#">Resources</a></li>
 	  <li role="presentation"><a href="#">News</a></li>
 	  <li role="presentation"><a href="#">FAQs & Help</a></li>
 	</ul>
 	<div class="header-banner">
 		<img src="images/header-banner.png">
+	</div>
+	<div class="quick-tasks-area row">
+		<ul class="col-md-10 col-md-offset-1 nav nav-pills">
+			<li class="">
+				<span class="labels">Search:</span>
+				<input type="text" class="" placeholder="Search for a property, tenant or deposit">
+			</li>
+			<li class="">
+				<span class="labels">Jump to:</span>
+				<select>
+					<option value=""><span>~ Please Select ~</span></option>
+					<option value="saab">Saab</option>
+					<option value="opel">Opel</option>
+					<option value="audi">Audi</option>
+				</select>
+			</li>
+			<li class="">
+				<span class="labels">Quick tasks:</span>
+				<div class="quick-task-icons">
+					<a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+					<a href="#"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></a>
+					<a href="#"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+				</div>
+			</li>
+		</ul>
 	</div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

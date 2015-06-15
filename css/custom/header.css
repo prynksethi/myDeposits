@@ -12,3 +12,32 @@
 	color: #777;
 	background: #e7e7e7;
  }
+.quick-tasks-area {
+	background: #e7e7e7;
+	padding-top: 66px;
+	padding-bottom: 66px;
+	margin: 0;
+}
+.quick-tasks-area input, .quick-tasks-area  select {
+  width: 295px;
+  height: 45px;
+}
+div.quick-task-icons {
+	display: inline-block;
+}
+.quick-task-icons a, .quick-tasks-area ul li .labels{
+	padding-right: 5px;
+}
+.quick-task-icons span {
+	font-size: 17px;
+	color: #fff;
+	background: #777;
+	border-radius: 50%;
+	padding: 10px;
+}
+.quick-task-icons span:hover, .quick-task-icons span:active {
+	background:#39B7CD;
+}
+.quick-tasks-area ul li {
+	padding-right: 45px;
+}
