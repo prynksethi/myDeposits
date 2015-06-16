@@ -1,15 +1,15 @@
 .purple-button {
 	background: #39B7CD;
-	padding: 8px 18px;
+	padding: 15px 40px;
 	border-radius: 5px;
 	color: #fff;
 }
 .home .carousel-inner img , .secondary-banner img {
 	width: 100%;
 }
-.home .properties {
-	padding-top: 100px;
-	padding-bottom: 100px;
+.home .properties, .home .advertisments {
+	padding-top: 80px;
+	padding-bottom: 80px;
 	background: #f6f6f6;
 }
 .home .properties img {
@@ -22,11 +22,29 @@
 .home .properties .caption .learn-more-button {
 	margin-top: 25px;
 }
-.home .company-description {
+.home .company-description, .home .join-now , .home .blog-section {
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
 .home .company-description p {
 	margin-top: 30px;
 	margin-bottom: 50px;
+}
+.home .join-now h3 {
+	margin-bottom: 45px;
+}
+.blog-section .blog-heading {
+	margin-top: 25px;
+}
+.blog-section .thumbnail {
+	background: #f6f6f6;
+}
+.blog-section a.blog-sec-button {
+	padding: 20px 30px;
+	border: 1px solid #39B7CD;
+	color: #39B7CD;
+	border-radius: 5px;
+}
+.blog-section .blog-link {
+	margin-top: 50px;
 }
