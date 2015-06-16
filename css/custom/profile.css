@@ -1,0 +1,38 @@
+.profile-cards .cards {
+	margin-top: 50px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.profile-cards .cards .boxes{
+	border: 4px solid #ddd;
+	border-top: 6px solid #000;
+}
+.profile-cards .cards .boxes img {
+	width: 85px;
+	height: 85px;
+	margin: 0 20px 0 0;
+	display: inline;
+}
+.profile-cards .cards .boxes .card-header {
+	margin: 10px 20px;
+	font-size: 22px;
+}
+.profile-cards .cards .boxes .card-body {
+	margin: 20px 20px;
+	font-size: 14px;
+}
+.profile-cards .cards .boxes .card-body p {
+	margin-bottom: 20px;
+}
+.profile-cards .cards .boxes .card-footer {
+	margin: 10px 20px;
+	font-size: 16px;
+	text-align: right;
+}
+.profile-cards .cards .boxes .card-footer a , .profile-cards .cards .boxes .card-footer a :hover {
+	color: #39B7CD;
+	text-decoration: none;
+}
+.profile-cards .cards .boxes .card-footer a span {
+	font-size: 12px;
+}
