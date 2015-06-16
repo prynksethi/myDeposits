@@ -22,7 +22,7 @@
 	font-size: 14px;
 }
 .profile-cards .cards .boxes .card-body p {
-	margin-bottom: 20px;
+	margin-bottom: 21px;
 }
 .profile-cards .cards .boxes .card-footer {
 	margin: 10px 20px;
@@ -35,4 +35,13 @@
 }
 .profile-cards .cards .boxes .card-footer a span {
 	font-size: 12px;
+}
+.profile-cards .cards .boxes .card-body table th {
+	background: #7a7a7a;
+}
+.profile-cards .cards .boxes .card-body p.notifications {
+	margin-bottom: 9px;
+}
+.profile-cards .cards .boxes .card-body p.notifications a {
+	color: #ff0000;
 }
