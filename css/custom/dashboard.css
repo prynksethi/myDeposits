@@ -1,6 +1,5 @@
 .dashboard {
-	margin-right: 60px;
-	margin-left: 60px;
+	margin: 20px 60px;
 }
 .dashboard-body table td {
 	padding: 15px !important;
@@ -17,4 +16,19 @@
 } 
 .dashboard-body table td span.protected {
 	color: green;
+}
+.dashboard-footer .prev-button, .dashboard-footer .next-button {
+	background: #39B7CD;
+	padding: 8px 18px;
+	border-radius: 5px;
+	color: #fff;
+}
+.dashboard-footer .circle {
+	border-radius: 50%;
+	border: 1px solid #39B7CD;
+	padding: 7px 10px;
+	font-size: 12px;
+}
+.dashboard-footer .navigation-options a{
+	margin: 4px;
 }
