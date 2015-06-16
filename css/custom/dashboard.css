@@ -1,0 +1,20 @@
+.dashboard {
+	margin-right: 60px;
+	margin-left: 60px;
+}
+.dashboard-body table td {
+	padding: 15px !important;
+} 
+.dashboard-body table th {
+	background: #7a7a7a;
+	color: #fff;
+}
+.dashboard-body table th span {
+	top: 4px;
+}
+.dashboard-body table td span.expired {
+	color: red;
+} 
+.dashboard-body table td span.protected {
+	color: green;
+}
