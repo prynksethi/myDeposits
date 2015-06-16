@@ -1,3 +1,9 @@
+.blue-font {
+	color: #39B7CD;	
+}
+.red-font {
+	color: #ff0000;
+}
 .profile-cards .cards {
 	margin-top: 50px;
 	padding-right: 30px;
@@ -7,7 +13,7 @@
 	border: 4px solid #ddd;
 	border-top: 6px solid #000;
 }
-.profile-cards .cards .boxes img {
+.profile-cards .cards .boxes .card-header img {
 	width: 85px;
 	height: 85px;
 	margin: 0 20px 0 0;
@@ -44,4 +50,17 @@
 }
 .profile-cards .cards .boxes .card-body p.notifications a {
 	color: #ff0000;
+}
+.profile-cards .cards .boxes .card-body .news-heading {
+	font-size: 18px;
+}
+.profile-cards .cards .boxes .card-body .news-date {
+	font-size: 12px;
+}
+.profile-cards .cards.resources-card .boxes .card-body {
+	display: inline-block;
+	margin: 0 20px;
+}
+.profile-cards .cards.resources-card .boxes .card-body .resources {
+	padding-bottom: 13.5px;
 }
