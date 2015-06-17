@@ -1,0 +1,25 @@
+.form-primary-header {
+
+	background: #696969;
+	padding: 20px 50px;
+}
+.form-primary-header a{
+	color: #fff;
+}
+.form-primary-header .black-back {
+	background: #000;
+	border-radius: 15px;
+	padding: 7px 15px;
+	margin-left: 30px;
+}
+.form-secondary-header {
+	padding: 30px 40px 30px 60px;
+	background: #f6f6f6;
+}
+.form-welcome-msg {
+	padding: 60px;
+}
+
+.landlord-form .question1 {
+	background: #f6f6f6;
+	padding: 30px 40px 30px 60px;
