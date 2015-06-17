@@ -48,56 +48,93 @@
 		</div>
 	</div>
 
-		<form class="landlord-form">
-		<div class="form-group question1 col-md-12">
-			<h3>What type of landlord are you?<span class="glyphicon glyphicon-question-sign"></span></h3>
-			<div class="radio">
-			  <label>
-				<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-				Private Individual Landlord
-			  </label>
-			</div>
-			<div class="radio">
-			  <label>
-				<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-				Company Landlord
-			  </label>
-			</div>
+	<form class="landlord-form">
+	<div class="form-group question1 col-md-12">
+		<h3>What type of landlord are you?<span class="glyphicon glyphicon-question-sign"></span></h3>
+		<div class="radio">
+		  <label>
+			<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+			Private Individual Landlord
+		  </label>
 		</div>
-		  <div class="form-group">
-			<label for="title">Title*</label>
-			<select class="form-control">
-			  <option>1</option>
-			  <option>2</option>
-			  <option>3</option>
-			  <option>4</option>
-			  <option>5</option>
-			</select>
-			<label for="firstnem">First Name</label>
-			<input type="text" class="form-control" id="firstname" placeholder="">
-			<label for="lastname">Last Name</label>
-			<input type="text" class="form-control" id="lastname" placeholder="">
-			<label for="exampleInputEmail1">Email address</label>
-			<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-			<label for="exampleInputPassword1">Password</label>
-			<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-		  </div>
-		  <div class="form-group">
-			<label for="exampleInputPassword1">Password</label>
-			<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-		  </div>
-		  <div class="form-group">
-			<label for="exampleInputFile">File input</label>
-			<input type="file" id="exampleInputFile">
-			<p class="help-block">Example block-level help text here.</p>
-		  </div>
-		  <div class="checkbox">
-			<label>
-			  <input type="checkbox"> Check me out
-			</label>
-		  </div>
-		  <button type="submit" class="btn btn-default">Submit</button>
-		</form>
+		<div class="radio">
+		  <label>
+			<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+			Company Landlord
+		  </label>
+		</div>
+	</div>
+	  <div class="form-group contact-details">
+		<h3>Your contact details<span class="glyphicon glyphicon-question-sign"></span></h3>
+		<label for="title">Title*</label>
+		<select class="form-control">
+		  <option>1</option>
+		  <option>2</option>
+		  <option>3</option>
+		  <option>4</option>
+		  <option>5</option>
+		</select>
+		<label for="firstname">First Name</label>
+		<input type="text" class="form-control" id="firstname" placeholder="">
+		<label for="lastname">Last Name</label>
+		<input type="text" class="form-control" id="lastname" placeholder="">
+		<label for="exampleInputEmail1">Email address</label>
+		<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+		<label for="phonenumber">Phone Number</label>
+		<input type="number" class="form-control" id="phonenumber" placeholder="">
+		<label for="mobilephonenumber">Mobile Phone Number</label>
+		<input type="number" class="form-control" id="mobilephonenumber" placeholder="">
+	  </div>
+	  
+	  
+	  <div class="form-group address-details">
+		<h3>Your address<span class="glyphicon glyphicon-question-sign"></span></h3>
+		<label for="postcode">Post Code</label>
+		<input type="number" class="form-control" id="postcode" placeholder="">
+		<label for="building">Building Name Number</label>
+		<input type="text" class="form-control" id="building" placeholder="">
+		<label for="address1">Address Line 1</label>
+		<input type="text" class="form-control" id="address1" placeholder="">
+		<label for="address2">Address Line 2</label>
+		<input type="text" class="form-control" id="address2" placeholder="">
+		<label for="town">Town/City</label>
+		<input type="text" class="form-control" id="town" placeholder="">
+		<label for="country">Country</label>
+		<input type="text" class="form-control" id="country" placeholder="">
+	  </div>
+	  
+	  <div class="form-group security-details">
+		<h3>Your security<span class="glyphicon glyphicon-question-sign"></span></h3>
+		<label for="title">Date of Birth*</label><br>
+		<select class="form-control">
+		  <option>Day</option>
+		  <option>2</option>
+		  <option>3</option>
+		  <option>4</option>
+		  <option>5</option>
+		</select>
+		<select class="form-control">
+		  <option>Month</option>
+		  <option>2</option>
+		  <option>3</option>
+		  <option>4</option>
+		  <option>5</option>
+		</select>
+		<select class="form-control">
+		  <option>Year</option>
+		  <option>2</option>
+		  <option>3</option>
+		  <option>4</option>
+		  <option>5</option>
+		</select><br>
+		<label for="momMaiden">Mother's Maiden Name</label>
+		<input type="text" class="form-control" id="momMaiden" placeholder="">
+	  </div>
+	  <hr>
+		<div class="text-center form-submit-button">
+			<a href="#" class="red-button" role="button">Submit</a>
+		</div>
+	</form>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
